@@ -43,11 +43,9 @@ namespace Calificaciones
             this.button2 = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
-            // 
-            // btnMostrar
-            // 
+            
             this.btnMostrar.Location = new System.Drawing.Point(83, 237);
-            this.btnMostrar.Margin = new System.Windows.Forms.Padding(2);
+            this.btnMostrar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnMostrar.Name = "btnMostrar";
             this.btnMostrar.Size = new System.Drawing.Size(56, 24);
             this.btnMostrar.TabIndex = 0;
@@ -88,7 +86,7 @@ namespace Calificaciones
             // btnSalir
             // 
             this.btnSalir.Location = new System.Drawing.Point(179, 237);
-            this.btnSalir.Margin = new System.Windows.Forms.Padding(2);
+            this.btnSalir.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnSalir.Name = "btnSalir";
             this.btnSalir.Size = new System.Drawing.Size(56, 24);
             this.btnSalir.TabIndex = 4;
@@ -100,6 +98,7 @@ namespace Calificaciones
             // 
             this.txtNombre.Location = new System.Drawing.Point(179, 38);
             this.txtNombre.Margin = new System.Windows.Forms.Padding(2);
+            this.txtNombre.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(218, 20);
             this.txtNombre.TabIndex = 5;
@@ -108,7 +107,7 @@ namespace Calificaciones
             // 
             this.txtTotal.Enabled = false;
             this.txtTotal.Location = new System.Drawing.Point(179, 143);
-            this.txtTotal.Margin = new System.Windows.Forms.Padding(2);
+            this.txtTotal.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtTotal.Name = "txtTotal";
             this.txtTotal.Size = new System.Drawing.Size(218, 20);
             this.txtTotal.TabIndex = 6;
@@ -116,7 +115,7 @@ namespace Calificaciones
             // txtSueldo
             // 
             this.txtSueldo.Location = new System.Drawing.Point(179, 94);
-            this.txtSueldo.Margin = new System.Windows.Forms.Padding(2);
+            this.txtSueldo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtSueldo.Name = "txtSueldo";
             this.txtSueldo.Size = new System.Drawing.Size(218, 20);
             this.txtSueldo.TabIndex = 7;
@@ -124,7 +123,7 @@ namespace Calificaciones
             // btnLimpiar
             // 
             this.btnLimpiar.Location = new System.Drawing.Point(283, 237);
-            this.btnLimpiar.Margin = new System.Windows.Forms.Padding(2);
+            this.btnLimpiar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnLimpiar.Name = "btnLimpiar";
             this.btnLimpiar.Size = new System.Drawing.Size(56, 24);
             this.btnLimpiar.TabIndex = 8;
@@ -135,7 +134,7 @@ namespace Calificaciones
             // Nuevo
             // 
             this.Nuevo.Location = new System.Drawing.Point(83, 184);
-            this.Nuevo.Margin = new System.Windows.Forms.Padding(2);
+            this.Nuevo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Nuevo.Name = "Nuevo";
             this.Nuevo.Size = new System.Drawing.Size(56, 24);
             this.Nuevo.TabIndex = 9;
@@ -145,7 +144,7 @@ namespace Calificaciones
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(179, 184);
-            this.button1.Margin = new System.Windows.Forms.Padding(2);
+            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(56, 24);
             this.button1.TabIndex = 10;
@@ -189,7 +188,7 @@ namespace Calificaciones
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnMostrar);
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form1";
             this.Text = "Calificaciones";
             this.ResumeLayout(false);

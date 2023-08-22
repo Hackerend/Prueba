@@ -39,6 +39,7 @@ namespace Calificaciones
             this.txtSueldo = new System.Windows.Forms.TextBox();
             this.btnLimpiar = new System.Windows.Forms.Button();
             this.Nuevo = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnMostrar
@@ -129,11 +130,21 @@ namespace Calificaciones
             this.Nuevo.Text = "Nuevo";
             this.Nuevo.UseVisualStyleBackColor = true;
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(298, 227);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 30);
+            this.button1.TabIndex = 10;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(565, 389);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.Nuevo);
             this.Controls.Add(this.btnLimpiar);
             this.Controls.Add(this.txtSueldo);
@@ -163,6 +174,7 @@ namespace Calificaciones
         private System.Windows.Forms.TextBox txtSueldo;
         private System.Windows.Forms.Button btnLimpiar;
         private System.Windows.Forms.Button Nuevo;
+        private System.Windows.Forms.Button button1;
     }
 }
 

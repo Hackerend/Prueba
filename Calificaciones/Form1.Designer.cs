@@ -38,6 +38,7 @@ namespace Calificaciones
             this.txtTotal = new System.Windows.Forms.TextBox();
             this.txtSueldo = new System.Windows.Forms.TextBox();
             this.btnLimpiar = new System.Windows.Forms.Button();
+            this.Nuevo = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnMostrar
@@ -79,7 +80,7 @@ namespace Calificaciones
             // 
             // btnSalir
             // 
-            this.btnSalir.Location = new System.Drawing.Point(269, 292);
+            this.btnSalir.Location = new System.Drawing.Point(239, 292);
             this.btnSalir.Name = "btnSalir";
             this.btnSalir.Size = new System.Drawing.Size(75, 30);
             this.btnSalir.TabIndex = 4;
@@ -119,11 +120,21 @@ namespace Calificaciones
             this.btnLimpiar.UseVisualStyleBackColor = true;
             this.btnLimpiar.Click += new System.EventHandler(this.btnLimpiar_Click);
             // 
+            // Nuevo
+            // 
+            this.Nuevo.Location = new System.Drawing.Point(164, 227);
+            this.Nuevo.Name = "Nuevo";
+            this.Nuevo.Size = new System.Drawing.Size(75, 30);
+            this.Nuevo.TabIndex = 9;
+            this.Nuevo.Text = "Nuevo";
+            this.Nuevo.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(565, 389);
+            this.Controls.Add(this.Nuevo);
             this.Controls.Add(this.btnLimpiar);
             this.Controls.Add(this.txtSueldo);
             this.Controls.Add(this.txtTotal);
@@ -151,6 +162,7 @@ namespace Calificaciones
         private System.Windows.Forms.TextBox txtTotal;
         private System.Windows.Forms.TextBox txtSueldo;
         private System.Windows.Forms.Button btnLimpiar;
+        private System.Windows.Forms.Button Nuevo;
     }
 }
 
